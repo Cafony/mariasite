@@ -29,6 +29,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+	/* Center the audio player box */
+#audio .box.style2 {
+    max-width: 900px;   /* adjust: 700–1000px looks good */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Make Elfsight fill the box */
+#audio .elfsight-app-34586ce2-2162-42b6-b09d-279fa2833fe0 {
+    width: 100% !important;
+}
+
+
 audio {
     width: 100%;
     max-width: 100%;
@@ -1931,6 +1945,7 @@ input, select, textarea {
 	display: block;
 	}
 
+	
 	.box {
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -1957,6 +1972,9 @@ input, select, textarea {
 			margin: -4em 0 4em -4em;
 			width: auto;
 		}
+
+
+
 
 /* Icons */
 
