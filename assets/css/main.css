@@ -1940,9 +1940,10 @@ input, select, textarea {
 
 	.box img {
 	width: 100%;
-	height: auto;
+	height: 300px;
 	object-fit: cover;
 	display: block;
+	overflow: hidden;
 	}
 
 	
